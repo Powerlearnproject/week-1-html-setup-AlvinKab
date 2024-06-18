@@ -1,1 +1,73 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="money.jpeg">
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker</h1>
+    </header>
+    <section>
+        <p>
+            This website enables you to track how you spend and budget your money, thus helping you to make more sound financial decisions.
+        </p>
+    </section>
+    <form action="/submit_form" method="post">
+        <fieldset>
+            <legend>Register here:</legend>
+            <label for="username">Username</label>
+            <br>
+            <input type="text" id="username" name="username">
+            <br>
+            <label for="phone">Phone number</label>
+            <br>
+            <input type="phone" id="phone" name="phone">
+            <br>
+            <label for="email">Email address</label>
+            <br>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="password">Password</label>
+            <br>
+            <input type="password" id="password" name="password">
+            <br>
+            <label for="confirm-password">Confirm password</label>
+            <br>
+            <input type="password" id="confirm-password" name="confirm-password">
+        </fieldset>
+    </form>
+    <table>
+        <caption>Users</caption>
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Phone number</th>
+                <th>Email address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alvin Kabutu</td>
+                <td>+254 482 514 321</td>
+                <td>alkmwas@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Brian Kihara</td>
+                <td>+254 222 583 946</td>
+                <td>harabrian@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Juma Mwanzi</td>
+                <td>+255 834 236 175</td>
+                <td>jumwanzi@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <img src="money.jpeg" alt="money">
+    <br>
+    <a href="https://google.com">Link</a>
+</body>
+</html>
